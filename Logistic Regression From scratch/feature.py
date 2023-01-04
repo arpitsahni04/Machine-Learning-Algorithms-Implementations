@@ -5,11 +5,6 @@ import sys
 VECTOR_LEN = 300   # Length of word2vec vector
 MAX_WORD_LEN = 64  # Max word length in dict.txt and word2vec.txt
 
-################################################################################
-# We have provided you the functions for loading the tsv and txt files. Feel   #
-# free to use them! No need to change them at all.                             #
-################################################################################
-
 
 def load_tsv_dataset(file):
     """

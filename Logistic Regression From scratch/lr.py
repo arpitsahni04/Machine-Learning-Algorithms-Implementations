@@ -23,7 +23,7 @@ def sigmoid(x):
 
 
 def train(theta, X, y, num_epoch, learning_rate,X_valid,y_valid):
-    # TODO: Implement `train` using vectorization
+
     n,m= X.shape  # m examples=200 , n featues=301 for large dataset
     n_valid,m_valid = X_valid.shape
     cost_vect_train = []
@@ -56,7 +56,7 @@ def train(theta, X, y, num_epoch, learning_rate,X_valid,y_valid):
 
 
 def predict(theta, X):
-    # TODO: Implement `predict` using vectorization
+
     Z = np.dot(X, theta)
     A = sigmoid(Z)
     A = (A>=0.5).astype(np.int8)
@@ -64,7 +64,7 @@ def predict(theta, X):
 
 
 def compute_error(y_pred, y):
-    # TODO: Implement `compute_error` using vectorization
+
     error = np.around(np.mean(y_pred != y, dtype=np.float32), 6)
     return error
 

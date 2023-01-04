@@ -3,16 +3,9 @@ import numpy as np
 
 from environment import MountainCar, GridWorld
 import sys
-"""
-Please read: THE ENVIRONMENT INTERFACE
-
-In this homework, we provide the environment (either MountainCar or GridWorld) 
-to you. The environment returns states, represented as 1D numpy arrays, rewards, 
+""" The environment returns states, represented as 1D numpy arrays, rewards, 
 and a Boolean flag indicating whether the episode has terminated. The environment 
 accepts actions, represented as integers.
-
-The only file you need to modify/read is this one. We describe the environment 
-interface below.
 
 class Environment: # either MountainCar or GridWorld
 
@@ -59,10 +52,6 @@ For example, for the GridWorld environment, you could do:
 
     env = GridWorld(mode="tile")
 
-Then, you can initialize your weight matrix to all zeroes with shape 
-(env.action_space, env.state_space+1) (if you choose to fold the bias term in). 
-Note that the states returned by the environment do *not* have the bias term 
-folded in.
 """
 
 def parse_args() -> tuple:
