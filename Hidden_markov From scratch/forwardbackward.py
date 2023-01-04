@@ -78,7 +78,7 @@ t
 
 def forwardbackward(seq, loginit, logtrans, logemit,words_to_indices):
     """
-    Your implementation of the forward-backward algorithm.
+    implementation of the forward-backward algorithm.
 
         seq is an input sequence, a list of words (represented as strings)
 
@@ -87,8 +87,6 @@ def forwardbackward(seq, loginit, logtrans, logemit,words_to_indices):
         logtrans is a np.ndarray matrix containing the log of the transition matrix
 
         logemit is a np.ndarray matrix containing the log of the emission matrix
-    
-    You should compute the log-alpha and log-beta values and predict the tags for this sequence.
     """
     L = len(seq) # T
     M = len(loginit) # possible states of y K
