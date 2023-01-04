@@ -87,7 +87,10 @@ def forwardbackward(seq, loginit, logtrans, logemit,words_to_indices):
         logtrans is a np.ndarray matrix containing the log of the transition matrix
 
         logemit is a np.ndarray matrix containing the log of the emission matrix
+<<<<<<< HEAD
     
+=======
+>>>>>>> c14cfa96de894faa8ccd8741eddc9ea57c8dfeeb
     """
     L = len(seq) # T
     M = len(loginit) # possible states of y K
