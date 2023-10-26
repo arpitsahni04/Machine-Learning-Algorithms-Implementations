@@ -1,4 +1,4 @@
-# Machine-Learning-Algorithms-Implementations
+# Machine-Learning-Algorithms-Implementated From Scratch in Numpy
 
 This Repo Contains Implementations of some of the fundamental Models in Machine Learning. 
 1. A Vectorized Numpy Implementation of a Decision Tree Learner Algorithm That works for n-nary features and Predictor Variables.
